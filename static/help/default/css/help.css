@@ -1,6 +1,5 @@
-.img_border { border: #ddd 1px solid; }
-.text_break { word-break: break-all; }
+.bg-nav-sso li a { color: #398439; }
+.bg-nav-sso li.active a { background: #398439!important; }
+.bg-nav-sso li.active a:hover { background: #398439!important; }
 
-.nav_sso li a { color: #3c763d; }
-.nav_sso li.active a { background: #3c763d!important; }
-.nav_sso li.active a:hover { background: #3c763d!important; }
+.bg-text-sso { color: #398439; }

@@ -5,36 +5,20 @@
 -----------------------------------------------------------------*/
 
 //不能非法包含或直接执行
-if(!defined("IN_BAIGO")) {
-    exit("Access Denied");
+if (!defined('IN_BAIGO')) {
+    exit('Access Denied');
 }
 
 /*-------------------------权限-------------------------*/
 return array(
     /*------用户------*/
-    "user" => array(
-        "title" => "用户",
-        "allow" => array(
-            "reg"       => "注册",
-            "edit"      => "编辑",
-            "del"       => "删除",
-            "mailbox"   => "更换邮箱",
-            "forgot"    => "找回密码",
-            "global"    => "操作所有用户",
-        ),
-    ),
-
-    /*------短消息------*/
-    "pm" => array(
-        "title" => "短消息",
-        "allow" => array(
-            "send"   => "发送",
-            "list"   => "列出",
-            "read"   => "读取",
-            "status" => "更改状态",
-            "rev"    => "撤回",
-            "del"    => "删除",
-            "check"  => "检查新消息",
+    'user' => array(
+        'title' => '用户',
+        'allow' => array(
+            'reg'       => '注册',
+            'edit'      => '编辑',
+            'del'       => '删除',
+            'global'    => '操作所有用户',
         ),
     ),
 );
